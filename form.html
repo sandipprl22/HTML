@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag in HTML</title>
+</head>
+<body>
+    <h1>HTML FORM</h1>
+    <!-- <form>
+        <div>
+            <lebel for="username">Username : </lebel>
+            <input type="text" id="username">
+        </div>
+        <div>
+            <lebel for="email">Enter Your Email : </lebel>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="textarea">Message : </label>
+            <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+    </form> -->
+
+    <form>
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="number">Number : </label>
+            <input type="number" id="number" max="10" min="1" value="1">
+        </div>
+        <div>
+            <label for="gender">Gender : </label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+        <div>
+            <label for="hobbie">Hobbie : </label>
+            <input type="checkbox" name="hobbie" value="music"> Music
+            <input type="checkbox" name="hobbie" value="sports"> Sports
+        </div>
+        <div>
+            <label for="country">Country : </label>
+            <select name="country" id="country">
+                <option value="USA">USA</option>
+                <option value="india">India</option>
+                <option value="uk">Uk</option>
+                <option value="Canada">Canada</option>
+            </select>
+        </div>
+        <div>
+            <label for="country">Country : </label>
+            <input type="text" id="country" name="country" list="countries">
+            <datalist id="countries">
+                <option value="USA">USA</option>
+                <option value="india">India</option>
+                <option value="uk">Uk</option>
+                <option value="Canada">Canada</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="comments">Message Us : </label>
+            <textarea name="comments" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+        </div>
+        <div>
+            <label for="file">Select File : </label>
+            <input type="file" name="file">
+        </div>
+        <input type="button" value="Submit">
+        <!-- or -->
+        <button type="button">Submit</button>
+    </form>
+</body>
+</html>
